@@ -1,3 +1,8 @@
+def COLOR_MAP = [
+    'SUCCESS': 'good', 
+    'FAILURE': 'danger',
+    'UNSTABLE': 'danger'
+  ]
 pipeline {
   agent {
     label 'Gradle-Build-Env' // Use the Gradle slave node for this pipeline
